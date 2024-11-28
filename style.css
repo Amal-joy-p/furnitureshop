@@ -1,0 +1,172 @@
+*{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+  
+  :root{
+    --x:grey
+  }
+  #button{
+    background-color: var(--x);
+  }
+  #button:hover{
+    background-color: white;
+    color: black;
+  }
+  .nav-item a{
+    font-size: 20px;
+  }
+  #main{
+    background-image: url(https://www.onlyoakfurniture.co.uk/wp-content/uploads/2022/01/Black-Living-Room-Furniture-scaled.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #Welcome{
+    color: rgb(255, 255, 255);
+    margin: 8% 0 0 5%;
+
+  }
+  #Welcome h1{
+    font-size: 80px;
+  font-weight: 900;    
+  }
+  #Welcome h4{
+    font-size: 30px;
+    font-weight: 900;    
+  }
+  #Welcome button{
+    color: white;
+    border-color: white;
+    font-size: 30px;
+  }
+  #Welcome button:hover{
+    background-color: white;
+    color:black;
+    border-color: white;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #back-ground-color{
+    background-color: rgb(0,0,0,0.100);
+  }
+  #work{
+    margin-top: 20vh;
+  }
+  #work h1{
+    text-align: center;
+    color: white;
+    
+  }
+  .card-body h2{
+    color: white;
+  }
+
+  #view-work{
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
+  #view-work:hover{
+    background-color: rgb(255, 253, 253);
+    color:rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #work{
+    background-image: url(https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_1280.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    margin-top: 8%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    color: white;
+    background-color: w;
+  }
+  #about{
+    background-color: white;
+  }
+  #hr{
+    border: 5px;
+    border-radius: 0px;
+    border-color: black;
+    border-style: solid;
+    width: 28%;
+    border-radius: 40px;
+  }
+  #p{
+    font-size: larger;
+  }
+  .aboutimg{
+    border: 10px;
+    border-radius: 0px;
+    border-color: black;
+    border-style: solid;
+    height: 500px;
+  }
+  .aboutimg img{
+    padding-top: 7%;
+    padding-left: 7%;
+  }
+  #viewbtn{
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+  #viewbtn:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+  }
+  @media (max-width:992px) 
+  { 
+    .nav-item i{
+      display: none;
+    }
+  }
+  @media (max-width:750px) {
+    #Welcome button{
+      font-size: 20px;
+      font-weight:800;
+    }
+    #Welcome button:hover{
+      background-color: white;
+      color:black;
+      border-color: white;
+      font-size: 20px;
+      font-weight: 800;
+    }
+    #viewbtn{
+      font-size: 20px;
+      font-weight:800;
+    }
+    #viewbtn:hover{
+      background-color: rgb(0, 0, 0);
+      color:rgb(255, 255, 255);
+      border-color: rgb(0, 0, 0);
+
+      font-size: 20px;
+      font-weight: 800;
+    }
+  }
+  #divdi{
+    background-color: rgb(0, 0, 0,0.7);
+    width: 50%;
+    height: 6rem;
+    color: white;
+  }
+  #card img{
+    height: auto;
+  }
+  .card p{
+    font-size: 20px;
+  }
+ 
